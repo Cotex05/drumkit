@@ -1,0 +1,135 @@
+html, body {
+  width:100%;
+}
+
+.content {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(1, 141, 255, 0.459), rgb(7, 142, 253));
+ 
+}
+
+.main {
+  margin: auto;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+}
+
+#title {
+  animation: anime 2s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes anime {
+  from {transform: rotate3d(0deg);}
+  to {transform: rotateY(360deg); color: black;}
+}
+
+.bg {
+  background-image: radial-gradient(circle, orange, royalblue);
+  border:50px solid ghostwhite;
+  border-radius: 10% 20% 10% 20%;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/kick.png");
+}
+
+.k {
+  background-image: url("images/snare.png");
+}
+
+.l {
+  background-image: url("images/crash.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+  transform: scale(1.2);
+  
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ffd900;
+  text-shadow: 3px 0 #c27501;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.drum:hover{
+  filter: brightness(80%);
+}
+
+/*
+ * Footer
+ */
+ .blog-footer {
+  padding: 0.5rem 0;
+  background-color: #020000;
+  border-top: .05rem solid #e5e5e5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:10%;
+  text-align: center;
+  font-size: 25px;
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 800px) {
+ 
+}
